@@ -8,4 +8,4 @@ Shibboleth attribute viewers based on the old SWITCH attribute viewer:
 - viewer-no-images
   - Based on the original SWITCH viewer with the SWITCH branding and images removed
 - viewer-with-images
-  - Based on the original SWITCH viewer with the SWITCH branding removed
+  - Based on the original SWITCH viewer with the SWITCH branding removed but the original colorful border intact
