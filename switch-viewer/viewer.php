@@ -87,44 +87,44 @@ h1
 }
 
 td.top-left {
-    background-image: url('images/topleft.gif');
+    background-image: url('http://www.switch.ch/aai/design/images/topleft.gif');
     height: 14px;
     width: 14px;
 }
 
 td.top-middle {
-    background-image: url('images/topcenter.gif');
+    background-image: url('http://www.switch.ch/aai/design/images/topcenter.gif');
     height: 14px;
 }
 
 td.top-right {
-    background-image: url('images/topright.gif');
+    background-image: url('http://www.switch.ch/aai/design/images/topright.gif');
     height: 14px;
     width: 14px;
 }
 td.middle-left {
-    background-image: url('images/middleleft.gif');
+    background-image: url('http://www.switch.ch/aai/design/images/middleleft.gif');
     width: 14px;
 }
 
 td.middle-right {
-    background-image: url('images/middleright.gif');
+    background-image: url('http://www.switch.ch/aai/design/images/middleright.gif');
     width: 14px;
 }
 
 td.bottom-left {
-    background-image: url('images/bottomleft.gif');
+    background-image: url('http://www.switch.ch/aai/design/images/bottomleft.gif');
     height: 14px;
     width: 14px;
 }
 
 td.bottom-middle {
-    background-image: url('images/bottomcenter.gif');
+    background-image: url('http://www.switch.ch/aai/design/images/bottomcenter.gif');
     height: 14px;
 }
 
 td.bottom-right {
-    background-image: url('images/bottomright.gif');
+    background-image: url('http://www.switch.ch/aai/design/images/bottomright.gif');
     height: 14px;
     width: 14px;
 }
@@ -149,7 +149,7 @@ td.bottom-right {
     <!-- content -->
     <td>
     <a class="logo" href="http://www.switch.ch/aai">
-        <img alt="SWITCHaai logo" src="images/switch-aai-logo.gif" style="padding-bottom: 7px" /></a>
+        <img alt="SWITCHaai logo" src="http://www.switch.ch/aai/design/images/switch-aai-logo.gif" style="padding-bottom: 7px" /></a>
     <h1>SWITCH Attribute Viewer</h1>
 
 <!-- table content -->
@@ -338,7 +338,7 @@ else {
 <!-- bottom left corner + middle bar + right corner -->
 <tr>
   <td class="bottom-left"></td>
-  <td><img src="images/bottomcenter.gif" height="14" width="100%" alt="bottomcenter" /></td>
+  <td><img src="http://www.switch.ch/aai/design/images/bottomcenter.gif" height="14" width="100%" alt="bottomcenter" /></td>
   <td class="bottom-right"></td>
 </tr>
 </table>
