@@ -1,9 +1,6 @@
 <?php
-// Version: 2007-07-26
-// Latest version of this script will be on https://aai-viewer.switch.ch/viewer.php?source
-//
-// Author: Lukas Haemmerle <lukas.haemmerle@switch.ch>
-// Bug reports etc. please to aai@switch.ch
+// Originally from https://aai-viewer.switch.ch/viewer.php?source version 2007-07-26
+// Original author: Lukas Haemmerle <lukas.haemmerle@switch.ch>
 
 // Specify your attribute-map.xml file and make sure it is readable by the web server
 $attribute_map_file = '/etc/shibboleth/attribute-map.xml';
@@ -20,7 +17,7 @@ if (isset($_REQUEST['source'])) {
 
 <html>
 <head>
-    <title>SWITCH Attribute Viewer</title>
+    <title>Shibboleth Attribute Viewer</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <style type="text/css">
 <!--
@@ -148,9 +145,7 @@ td.bottom-right {
     <td class="middle-left"></td>
     <!-- content -->
     <td>
-    <a class="logo" href="http://www.switch.ch/aai">
-        <img alt="SWITCHaai logo" src="images/switch-aai-logo.gif" style="padding-bottom: 7px" /></a>
-    <h1>SWITCH Attribute Viewer</h1>
+    <h1>Shibboleth Attribute Viewer</h1>
 
 <!-- table content -->
 <table width="100%">
