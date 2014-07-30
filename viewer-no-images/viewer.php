@@ -117,6 +117,15 @@ td.bottom-right {
     height: 14px;
     width: 14px;
 }
+
+#page {
+	-moz-box-shadow: 1px 1px 8px #999999;
+	-moz-border-radius: 13px;
+	-webkit-box-shadow: 1px 1px 8px #999999;
+	-webkit-border-radius: 13px;
+	box-shadow: 1px 1px 8px #999999; /* IE9, FF4 */
+	border-radius: 13px;
+}
 -->
 </style>
 </head>
@@ -124,7 +133,7 @@ td.bottom-right {
 <body>
 <div align="center">
 
-<table border="0" cellpadding="0" cellspacing="0">
+<table border="0" cellpadding="0" cellspacing="0" id="page">
 <!-- top left corner + middle bar + right corner -->
 <tr>
     <td class="top-left"></td>
