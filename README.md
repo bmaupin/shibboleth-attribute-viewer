@@ -3,6 +3,9 @@ shibboleth-attribute-viewer
 
 Shibboleth attribute viewers based on the old SWITCH attribute viewer:
 
+- viewer-v2
+  - Redesigned viewer. Looks like this:
+    ![viewer-v2](viewer-v2.png)
 - viewer-v1-no-images
   - Based on the original SWITCH viewer with the SWITCH branding and images removed. Looks like this:
     ![viewer-v1-no-images](viewer-v1-no-images.png)

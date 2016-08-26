@@ -1,0 +1,96 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #555;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+li {
+  padding-bottom: 7px;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  border-spacing: 0;
+  box-sizing:border-box;
+  font-size: 14px;
+  width: 100%;
+}
+
+table pre {
+  /* Override Chrome default of 1em 0px 1em */
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+th {
+  background-color: white;
+  text-align: left;
+}
+
+td, th {
+  padding: 7px;
+  vertical-align: top;
+}
+
+tr {
+  background-color: white;
+}
+
+tr:nth-of-type(even) {
+  background-color: #f5f5f5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 840px;
+  width: 90%;
+}
+
+.content {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(50, 50, 50, 0.50);
+  box-sizing:border-box;
+  left: 0;
+  right: 0;
+  padding: 36px;
+  position: absolute;
+  top: 105px;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 5px;
+}
+
+.nav img {
+  height: 75px;
+}
+
+.navbar {
+  /*  This is the color of the text in the Shibboleth logo*/
+  background-color: #ff4207;
+  height: 135px;
+}
