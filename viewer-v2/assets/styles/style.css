@@ -80,9 +80,16 @@ ul {
 }
 
 .nav {
-  list-style: none;
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 20px 0 5px;
+}
+
+.nav a {
+  color: white;
+  margin-top: auto;
+  text-decoration: none;
 }
 
 .nav img {

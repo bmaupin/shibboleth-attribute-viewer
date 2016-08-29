@@ -12,20 +12,30 @@ header('Content-type: text/html; charset=utf-8');
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Shibboleth Attribute Viewer</title>
+    <title>Shibboleth attribute viewer</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="container">
-          <ul class="nav">
-            <li>
-              <a href="https://shibboleth.net/">
-                <img src="assets/images/shibboleth-logo.png" alt="shibboleth-logo">
-              </a>
-            </li>
-          </ul>
+          <div class="nav">
+            <a href="https://shibboleth.net/">
+              <img src="assets/images/shibboleth-logo.png" alt="shibboleth-logo">
+            </a>
+            <?php
+            // Uncomment this for proprietary logout support
+            /*
+            $pos = strpos($_SERVER['Shib-Identity-Provider'], '/idp');
+            $logout_url = substr($_SERVER['Shib-Identity-Provider'], 0, $pos) . '/idp/profile/Logout';
+            echo "<a href=\"{$logout_url}\">Log out</a>\n"
+            */
+            // Or uncomment this for SAML logout support
+            /*
+            echo "<a href=\"/Shibboleth.sso/Logout\">Log out</a>\n"
+            */
+            ?>
+          </div>
         </div>
       </nav>
     </header>
@@ -33,7 +43,8 @@ header('Content-type: text/html; charset=utf-8');
       <h1>Attribute viewer</h1>
       <table>
         <tr>
-            <th>Attributes</th><th>Values</th>
+          <th>Attributes</th>
+          <th>Values</th>
         </tr>
 <?php
 // Get the contents of the Shibboleth SP attribute map file
